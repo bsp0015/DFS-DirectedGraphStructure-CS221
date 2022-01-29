@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7077C56D27A513FC0072429E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7077C56C27A513FC0072429E /* main.cpp */; };
+		7077C57527A515140072429E /* GraphType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7077C57327A515140072429E /* GraphType.cpp */; };
+		7077C57727A515350072429E /* TestDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7077C57627A515340072429E /* TestDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		7077C56927A513FC0072429E /* DirectedGraphStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DirectedGraphStructure; sourceTree = BUILT_PRODUCTS_DIR; };
-		7077C56C27A513FC0072429E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7077C57327A515140072429E /* GraphType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphType.cpp; sourceTree = "<group>"; };
+		7077C57427A515140072429E /* GraphType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphType.hpp; sourceTree = "<group>"; };
+		7077C57627A515340072429E /* TestDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestDriver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		7077C56B27A513FC0072429E /* DirectedGraphStructure */ = {
 			isa = PBXGroup;
 			children = (
-				7077C56C27A513FC0072429E /* main.cpp */,
+				7077C57627A515340072429E /* TestDriver.cpp */,
+				7077C57327A515140072429E /* GraphType.cpp */,
+				7077C57427A515140072429E /* GraphType.hpp */,
 			);
 			path = DirectedGraphStructure;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7077C56D27A513FC0072429E /* main.cpp in Sources */,
+				7077C57527A515140072429E /* GraphType.cpp in Sources */,
+				7077C57727A515350072429E /* TestDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
